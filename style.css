@@ -133,3 +133,8 @@ section.featured-products .products-area {
   height: auto;
   max-height: 350px;
 }
+.product .title {
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: 700;
+}
