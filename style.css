@@ -180,3 +180,17 @@ section.featured-products .products-area {
 .promotion .image img {
   width: 300px;
 }
+
+/* Pre footer style */
+.pre-footer {
+  text-align: center;
+}
+.pre-footer .instagram {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.pre-footer .instagram-images {
+  display: flex;
+  gap: 20px;
+}
