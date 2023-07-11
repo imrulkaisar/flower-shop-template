@@ -1,4 +1,7 @@
 /* common styles */
+:root {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -84,7 +87,8 @@ header .content {
   align-items: flex-end;
 }
 .header-image img {
-  width: 500px;
+  max-width: 500px;
+  padding-top: 30px;
 }
 
 /* main content style */
@@ -228,6 +232,24 @@ section.featured-products .products-area {
 .footer-banner .subcription-form input[type="submit"] {
   border: none;
   flex-basis: 20%;
+}
+
+/* surprise section style */
+.surprise .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.surprise .image {
+  flex-basis: 50%;
+}
+.surprise .content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 /* Footer style */
